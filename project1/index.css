@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-wrapper,
+.menu {
+  background-color: lightseagreen;
+  border-bottom: 2px solid white;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: white;
+  transition: all 1s ease-out;
+}
+
+h1:hover {
+  color: lightsalmon;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  margin: 10px 20px 10px 20px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: all 1s ease-out;
+}
+
+.menu-item a:hover {
+  font-size: 2.5em;
+  color: lightsalmon;
+}
+
+img {
+  width: 100%;
+}

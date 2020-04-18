@@ -1,0 +1,63 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  /* border: 1px solid black; */
+  /* animation-name: grow; */
+  animation-name: first-animation;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 4;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes grow {
+  0% {
+    width: 1000px;
+    height: 1000px;
+    background: red;
+  }
+  15% {
+    /* width: 800px;
+    height: 800px; */
+    background: orange;
+  }
+  30% {
+    /* width: 600px;
+    height: 600px; */
+    background: yellow;
+  }
+  50% {
+    /* width: 400px;
+    height: 400px; */
+    background: green;
+  }
+  65% {
+    /* width: 300px;
+    height: 300px; */
+    background: rgb(6, 253, 253);
+  }
+  80% {
+    /* width: 200px;
+    height: 200px; */
+    background: blue;
+  }
+  100% {
+    /* width: 100px;
+    height: 100px; */
+    background: rgb(253, 16, 253);
+  }
+}
+
+@keyframes first-animation {
+  from {
+    width: 100px;
+    height: 100px;
+    background: orange;
+  }
+  to {
+    width: 10px;
+    height: 10px;
+    background: tomato;
+  }
+}
